@@ -1,0 +1,327 @@
+body{
+    padding: 0 20px;
+}
+
+.headers{
+    display: flex;
+    justify-content: space-between;
+ 
+    fill: #FFF;
+filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.05));
+}
+.games{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.pic{
+    width: 100px;
+    height: 50px;
+}
+.navs{
+    display: flex;
+gap: 20px;
+font-size: 30px;
+   
+}
+nav ul li{
+list-style: none;
+
+}
+/* .textcontiner{
+    padding: 0 100px;
+} */
+.img-continer img{
+    width: 500px;
+}
+.header-continer{
+    display: flex;
+  
+    justify-content: space-evenly;
+    align-items: center;
+ 
+}
+.btn
+{
+
+    border-radius: 8px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    border: none;
+ 
+    color: wheat;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.game-continer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.gameimg{
+    width: 868px;
+    height: 489px;
+}
+.gametextconts{
+    padding: 0 20px;
+
+}
+.vedio-section{
+    text-align: center;
+}
+.vedio-img{
+    margin-top: 100px;
+display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 10px;
+
+}
+.vedio-imgs{
+    width: 300px;
+  
+
+}
+.download{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+}
+.downlodText{
+    margin-left: 200px;
+}
+.putol{
+    width: 200px;
+    position: relative;
+    bottom: 150px;
+    right: 100px;
+}
+.putols2{
+    width: 200px;
+    position: relative;
+    bottom: 150px;
+    left: 400px;
+
+}
+.imgdownlod{
+    margin-left: 100px;
+
+}
+.careear{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF42A5;
+/* width: 1220px;
+height: 821px; */
+
+
+
+}
+/* .sections{
+    background-color: #FF42A5;
+
+} */
+
+.cont{
+    display: flex;
+    gap: 100px;
+    color: #FFF;
+    margin-bottom: 0px;
+
+
+
+}
+.colam2{
+    color: #FFF;
+    padding:0 40px;
+}
+.cont ul li{
+list-style-type: none;
+padding: 10px;
+}
+.footimg{
+    width: 100%;
+  
+}
+
+.btnpositions{
+   
+    color: #FF42A5;
+    border: none;
+    border-radius: 48px;
+    background: #FFF;
+
+    padding: 20px;
+    position: relative;
+    left: 100px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+
+
+}
+
+.icones{
+    padding: 0 100px;
+
+
+
+}
+.divsicone{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.card{
+display: flex;
+ gap: 20px;
+  align-items: center;
+
+  margin: 20px;
+  padding: 10px;
+  border-radius: 34px;
+  width: 281px;
+height: 80px;
+
+}
+.divicone2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding-left: 50px;
+
+}
+
+.game{
+    padding-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.listit{
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.listitm{
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: rgba(255, 255, 255, 0.60);
+
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+
+footer{
+    margin-top: 66px;
+
+    background: #0B0223;
+    color: #FFF;
+   
+}
+.img1{
+    width: 500px;
+    padding: 0%;
+}
+.lastfootar{
+  
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+/* responsive */
+
+@media screen and (max-width:576px) {
+    .img1{
+        width: 400px;
+       
+        position: relative;
+        left: -70px;
+    }
+    .downlodText{
+
+        position: relative;
+        left: -200px;
+
+    }
+    .putol{
+        width: 100px;
+        position: relative;
+         bottom: 100px;
+         left: -40px;
+  
+    }
+    .putols2{
+        width: 100px;
+        position: relative;
+        bottom: 100px;
+        left: 270px;
+    
+    }
+    .headers{
+        flex-direction: column;
+        padding: 0px;
+
+    }
+    .game-continer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .gameimg{
+        width: 469px;
+        height: 389px;
+    }
+ 
+    .header-continer, .download{
+        flex-direction: column;
+
+    }
+    .divsicone{
+        flex-direction: column;
+
+    }
+    .careear{
+        flex-direction: column;
+      
+
+    }
+    .careear{
+        padding: 0 200px;
+    }
+    .vedio-img{
+        grid-template-columns:  1fr;
+        padding-left: 20%;
+    }
+    
+}
